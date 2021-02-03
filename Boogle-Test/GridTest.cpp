@@ -4,7 +4,8 @@
 TEST(GetACell, Grid) {
 	
 	std::string testLetters{"abcd" "efgh" "ijkl" "MNOP"};
-	Grid grid(testLetters);
+	Grid grid;
+	grid.init(testLetters);
 
 	EXPECT_EQ('A', grid.letterAt(0, 0));
 	EXPECT_EQ('D', grid.letterAt(3, 0));

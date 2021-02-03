@@ -2,6 +2,7 @@
 
 int main()
 {
-	BoogleGame::play();
+	BoogleGame theGame;
+	theGame.play();
 }
 

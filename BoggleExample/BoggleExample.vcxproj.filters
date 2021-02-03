@@ -38,10 +38,10 @@
     <ClInclude Include="Header.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="DisplayString.h">
+    <ClInclude Include="BoogleGame.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="BoogleGame.h">
+    <ClInclude Include="GameRenderer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

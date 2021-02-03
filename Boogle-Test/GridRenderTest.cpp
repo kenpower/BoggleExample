@@ -3,7 +3,8 @@
 
 TEST(GridtoString, GridRenderer) {
   
-	Grid grid("testgridabcdwxyz");
+	Grid grid;
+	grid.init("testgridabcdwxyz");
 	std::string expected =
 		"+----+\n"
 		"|TEST|\n"
