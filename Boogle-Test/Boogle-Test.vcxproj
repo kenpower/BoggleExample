@@ -36,6 +36,7 @@
     <ClInclude Include="pch.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="DiceTest.cpp" />
     <ClCompile Include="GridRenderTest.cpp" />
     <ClCompile Include="GridTest.cpp" />
     <ClCompile Include="pch.cpp">

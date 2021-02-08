@@ -141,15 +141,20 @@
   <ItemGroup>
     <ClCompile Include="BoggleExample.cpp" />
     <ClCompile Include="BoogleGame.cpp" />
+    <ClCompile Include="Dice.cpp" />
     <ClCompile Include="Grid.cpp" />
     <ClCompile Include="GridRenderer.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BoogleGame.h" />
+    <ClInclude Include="Dice.h" />
     <ClInclude Include="GameRenderer.h" />
     <ClInclude Include="Grid.h" />
     <ClInclude Include="GridRenderer.h" />
-    <ClInclude Include="Header.h" />
+    <ClInclude Include="Random.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagra.cd" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

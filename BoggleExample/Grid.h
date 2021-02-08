@@ -5,9 +5,9 @@ class Grid
 	std::string letters;
 	int width{ 4 };
 public:
-	void init(const std::string intialLetters) 
+	void init(const std::string initialLetters) 
 	{
-		letters = intialLetters;
+		letters = initialLetters;
 	}
 	char letterAt(const int col, const int row) const;
 };

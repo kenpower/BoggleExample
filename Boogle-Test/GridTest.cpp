@@ -12,3 +12,4 @@ TEST(GetACell, Grid) {
 	EXPECT_EQ('P', grid.letterAt(3, 3));
 
 }
+
